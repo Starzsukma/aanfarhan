@@ -1,0 +1,452 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-bawah {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding:1em;
+    color: white;
+}
+
+
+.header-atas {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: rgb(159, 159, 248);
+     align-content: center;
+    align-items: center; 
+     justify-content: space-evenly; 
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.nav:hover{
+    font-size: 200%;
+}
+.dropdown-content{
+    display: none;
+}
+
+.content-atas {
+    text-align: center;
+    display:flex;
+     position: relative;
+  text-align: center;
+  background-color: rosybrown;
+  color: white;
+}
+.contentregis{
+    background-color: rosybrown;
+}
+
+.content-kanan {
+    color: black;
+    font-size: 50px;
+    padding-top: 1em;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+.content{
+    background-color: rosybrown;
+}
+
+
+
+.content-kiri {
+    color: black;
+    font-size: 25px;
+    padding-top: 2em;
+    font-weight: 500;
+     margin-left: 5em; 
+    margin-right:20em;  
+    text-align:left;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(159, 159, 248);
+    padding: 0.5%;
+}
+
+.footer-kiri {
+    font-size: 23px;
+    color: white;
+   
+    margin-left: 4em;
+    padding-right: 10em;
+}
+.feedback{
+    padding-top: 1em;
+    color: black;
+}
+
+
+.footer-kanan {
+    display: flex;
+    color: white;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 0.25%;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.control {
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 20em;
+    align-content: center;
+    margin: auto;
+    border: 7px solid black;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.con{
+    background-color: orange;
+    font-size: 25px;
+    font-weight: bold;
+}
+.conttt{
+    display: flex;
+}
+
+.testiname{
+    padding-top: 9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    
+}
+.testijob{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: inherit;
+}
+
+.contth{
+    display: flex;
+    background-color: greenyellow;
+}
+
+/* CATALOG */
+
+.catadesc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: inherit;
+    font-weight: bold;
+    
+}
+.catadesc a{
+    text-decoration: none;
+    color: white;
+}
+
+.catalog{
+    display: flex;
+    background-color: rosybrown;
+    align-items: center;
+    align-content: center;
+    padding-left: 25em;
+}
+.cataloggambarbp{
+    padding-left: 10em;
+}
+
+.merchandise{
+    display: flex;
+    background-color: rosybrown;
+    align-items: center;
+    align-content: center;
+    padding-left: 15em;
+}
+.merch :hover{
+ font-size: 100%;
+}
+.catl :hover{
+    font-size: 100%;
+}
+
+.merchandisegambarbp{
+    padding-left: 5em;
+}
+.merchadesc a{
+    text-decoration: none;
+color: white;
+}
+.merchadesc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: inherit;
+    font-weight: bold;
+}
+
+.judulalbumitz{
+    background-color: rosybrown;
+    color: rgb(194, 12, 240);
+    padding-left: 19em;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ITZYalbum{
+    display: flex;
+    background-color: rosybrown;
+    align-items: center;
+    align-content: center;
+    padding-left: 25em;
+    padding-top: 5em;
+}
+.albumgambaritzy2{
+    padding-left: 10em;
+}
+.itzgambar{
+    color: thistle;
+    font-weight: bold;
+}
+
+
+.judulalbumBlackp{
+    background-color: rosybrown;
+    color: rgb(238, 39, 155);
+    padding-left: 19em;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+}
+.judulalbumBTS{
+    background-color: rosybrown;
+    color: rgb(26, 3, 3);
+    padding-left: 19em;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.contenttengah{
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+
+/* Sliderjs  */
+
+.content-bawah {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .sliderr {
+    display: none;
+  }
+  .preview, .next {
+      position: absolute;
+      top: 50%;
+      width: auto;
+      color: rgb(238, 211, 211);
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: -22px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      padding: 16px;
+      font-size: 18px;
+      transition: 0.6s ease;
+}
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .preview:hover, .next:hover {
+    background-color: rgba(96, 236, 107, 0.8);
+  }
+  .titik {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+.Replace .titik:hover {
+    background-color: #24e96f;
+  }
+.best {
+    animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }  
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+.kpopimage{
+    margin-left: 31%;
+}
+/* DropDown */
+  .dropdown-content {
+    position: relative;
+    display: inline-block;
+  }
+ 
+
+  .dropitem {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropitem  a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropitem  a:hover {background-color: #f1f1f1}
+
+  .dropdown-content:hover .dropitem {
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+ .dropdown-content{
+     display: none;
+ }
+
+@media screen and (max-width :600px) {
+    .header-bawah{ 
+        background-color:   rgb(159, 159, 248);
+    }
+    .dropdown-content{
+        display: block;
+        background-color:   rgb(159, 159, 248);
+    }
+    .dropdown-content img{
+        width:  80px;
+        background-color:   rgb(159, 159, 248);
+    }
+    .nav{
+        display: none;
+        background-color:   rgb(159, 159, 248);
+    }
+    .content-kiri{
+        font-size: 10px;
+    }
+    .content-kanan{
+        font-size: 15px;
+    }
+    .contenttengah{
+        font-size: 15px;
+    }
+    .kpopimage{
+        margin-left: 70px;
+    }
+    .footer-kiri{
+        font-size: 15px;
+    }
+    .footer-kanan{
+        width: 50px;
+        padding-left: 0;
+       
+    }
+    .footer-kanan img {
+        margin-right: 100px;
+     
+    }
+    .catalog img{
+        width: 150px;
+    }
+    .catalog{
+        padding-left: 50px; 
+       
+    }
+    .catalog a{
+        font-size: 15px;
+    }
+    .merchandise img{
+        width: 120px;
+    }
+    .merchandise{
+        padding-left: 0;
+    }
+    .merchandise a{
+        font-size: 15px;
+    }
+    .ITZYalbum img{
+        width: 100px;
+    }
+    .ITZYalbum{
+        padding-left: 0;
+    }
+    .judulalbumBTS {
+        font-size: 20px;
+      padding-left: 100px;  
+    }
+    .judulalbumBlackp{
+        font-size: 20px;
+        padding-left: 100px;  
+    }
+    .judulalbumitz{
+        font-size: 20px;
+        padding-left: 100px;  
+    }
+    .testi{
+     font-size: 15px;
+        
+    }
+    .conttt, .contth{
+        flex-direction: column;
+    }
+
+  
+
+    
+}
+  
